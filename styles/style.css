@@ -37,11 +37,9 @@ h1, h2, h3, h4, h5, p, ul {
   align-items: center;
   position: relative;
   z-index: 2;
-
   width: 730px;
   height: 100%;
   margin-left: 64px;
-
   font-size: 102px;
   line-height: 96px;
   font-weight: 700;
@@ -49,11 +47,9 @@ h1, h2, h3, h4, h5, p, ul {
 
 .header__subtitle {
   width: 388px;
-
   font-size: 18px;
   line-height: 25px;
   font-weight: 300;
-
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -72,7 +68,6 @@ h1, h2, h3, h4, h5, p, ul {
 .header__main-illustration {
   width: 765px;
   height: 608px;
-
   position: absolute;
   bottom: 0;
   right: 0;
@@ -82,9 +77,7 @@ h1, h2, h3, h4, h5, p, ul {
 .header__square-pic {
   height: 568px;
   width: 568px;
-
   background-color: #2f80ed;
-
   position: absolute;
   top: 64px;
   right: 0;
@@ -111,21 +104,17 @@ h1, h2, h3, h4, h5, p, ul {
 /* Two-columns */
 .two-columns {
   width: 80%;
-
   display: flex;
   justify-content: space-between;
-
   margin: 100px auto;
 }
 
 .two-columns__brief {
   width: 175px;
-
   font-size: 18px;
   line-height: 1.2;
   font-weight: 300;
   color: #2f80ed;
-
   margin: 0;
   padding: 0;
 }
@@ -138,7 +127,6 @@ h1, h2, h3, h4, h5, p, ul {
 .two-columns__paragraph {
   font-size: 24px;
   line-height: 34px;
-
   margin-bottom: 30px;
 }
 
@@ -161,14 +149,11 @@ h1, h2, h3, h4, h5, p, ul {
 .section-title {
   width: 60%;
   text-align: center;
-
   font-size: 60px;
   line-height: 1.15;
   font-weight: 700;
-
   margin: 0 auto;
   margin-bottom: 20px;
-
   position: relative;
   z-index: 1; /* для того, чтобы треугольник
   в секции kaufman не загораживал заголовок */
@@ -181,11 +166,9 @@ h1, h2, h3, h4, h5, p, ul {
 .section-subtitle {
   width: 60%;
   text-align: center;
-
   font-size: 24px;
   line-height: 34px;
   font-weight: 300;
-
   margin: 0 auto;
 }
 
@@ -195,11 +178,9 @@ h1, h2, h3, h4, h5, p, ul {
 
 .table {
   width: 1100px;
-
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
   margin: 0 auto;
   position: relative;
   z-index: 1; /* для того, чтобы треугольник
@@ -208,7 +189,6 @@ h1, h2, h3, h4, h5, p, ul {
 
 .table__cell {
   width: 250px;
-
   margin-top: 60px;
 }
 
@@ -229,7 +209,6 @@ h1, h2, h3, h4, h5, p, ul {
   font-size: 18px;
   line-height: 1.2;
   font-weight: 300;
-
   margin-top: 20px;
 }
 
@@ -237,19 +216,16 @@ h1, h2, h3, h4, h5, p, ul {
 .feynman {
   height: 890px;
   position: relative;
-
-  background: url('/images/feynman.png') no-repeat;
+  background: url('../images/feynman.png') no-repeat;
   background-position: bottom 0 left 0;
   background-color: #f2f2f2;
 }
 
 .feynman__title {
   width: 648px;
-
   font-size: 120px;
   line-height: 1.15;
   font-weight: 700;
-
   text-align: center;
   margin: 0 auto;
   margin-bottom: 70px;
@@ -260,7 +236,6 @@ h1, h2, h3, h4, h5, p, ul {
   font-size: 36px;
   line-height: 51px;
   font-weight: 300;
-
   text-align: center;
   margin: 0 auto;
 }
@@ -268,11 +243,9 @@ h1, h2, h3, h4, h5, p, ul {
 .feynman__link {
   text-decoration: none;
   color: #2f80ed;
-
   font-size: 36px;
   line-height: 51px;
   font-weight: 300;
-
   position: absolute;
   top: 50%;
   right: 48px;
@@ -280,18 +253,15 @@ h1, h2, h3, h4, h5, p, ul {
 
 /* Kaufman */
 .kaufman {
-  background-color: #000;
-
+  background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
-
   padding: 90px 0;
 }
 
 .kaufman__triangle {
   width: 877px;
   height: 877px;
-
   position: absolute;
   top: 0;
   right: -210px;
@@ -301,23 +271,19 @@ h1, h2, h3, h4, h5, p, ul {
 /* Footer */
 .footer {
   min-height: 350px;
-
-  background-color: #000;
+  background-color: #1f1f1f;
   padding: 60px 0 40px;
 }
 
 .footer__columns {
   width: 90%;
-
   display: flex;
   justify-content: space-between;
-
   margin: 0 auto;
 }
 
 .footer__column {
   height: 250px;
-
   color: #fff;
 }
 
@@ -332,7 +298,6 @@ h1, h2, h3, h4, h5, p, ul {
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
-
   margin-bottom: 20px;
 }
 
@@ -344,7 +309,6 @@ h1, h2, h3, h4, h5, p, ul {
   display: block;
   text-decoration: none;
   color: #fff;
-
   margin-bottom: 10px;
 }
 
@@ -363,6 +327,5 @@ h1, h2, h3, h4, h5, p, ul {
   font-size: 18px;
   line-height: 25px;
   font-weight: 300;
-
   padding: 18px 0;
 }
